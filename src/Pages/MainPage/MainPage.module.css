@@ -1,0 +1,42 @@
+.main{
+    padding: 30px;
+    width: 100%;
+}
+
+.search__container{
+    display: flex;
+    width: 100%;
+}
+
+.search__container input {
+    width: 100%;
+    font-size: 20px;
+    padding: 5px 7px;
+    margin-bottom: 20px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.film{
+    border: solid 1px;
+    flex-grow: 1;
+    max-width: 350px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.title__container{
+    padding: 10px;
+}
+
+.film img{
+    width: 100%;
+}
